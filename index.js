@@ -6,7 +6,7 @@ const firstMovie = {
     poster: "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
 };
 
-const movieTitles = ["The Giant Gila Monster", "Manos: The Hands Of Fate", "Time Chasers", "The Touch Of Satan", "Santa Claus Conquers The Martians", "Track Of The Moon Beast", "The Skydivers", "The Killer Shrews", "Project Moon Base", "The Giant Spider Invasion", "Catalina Caper", "Secret Agent Super Dragon", "Wild Rebels", "Danger: Diabolik", "Village Of The Giants"];
+const movieTitles = ["The Giant Gila Monster", "Manos: The Hands Of Fate", "Time Chasers"];
 
 function displayMovieDetails(){
     const titleDiv = document.getElementById('title');
