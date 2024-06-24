@@ -8,10 +8,6 @@ const firstMovie = {
 
 const movieTitles = ["The Giant Gila Monster", "Manos: The Hands Of Fate", "Time Chasers", "The Touch Of Satan", "Santa Claus Conquers The Martians", "Track Of The Moon Beast", "The Skydivers", "The Killer Shrews", "Project Moon Base", "The Giant Spider Invasion", "Catalina Caper", "Secret Agent Super Dragon", "Wild Rebels", "Danger: Diabolik", "Village Of The Giants"];
 
-function updateDOMElements(){
-    // Write your solution code for Task # 2 here!
-}
-
 function displayMovieDetails(){
     const titleDiv = document.getElementById('title');
     titleDiv.textContent = firstMovie.title;
@@ -32,6 +28,10 @@ function addMovieTitleToList(movieTitle){
     liElement.textContent = movieTitle;
     const filmsList = document.getElementById('films');
     filmsList.appendChild(liElement);
+}
+
+function updateDOMElements(){
+    // Write your solution code for Task # 2 here!
 }
 
 // Write your solution code for Task # 1 here!
